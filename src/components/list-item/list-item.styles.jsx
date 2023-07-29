@@ -28,7 +28,7 @@ export const ListItemContainer = styled.div`
 	}
 
 	&:active {
-		background-color: lightgray;
+		background-color: whitesmoke;
 		box-shadow: inset 4px 4px 8px black;
 	}
 
