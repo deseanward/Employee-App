@@ -1,5 +1,5 @@
 import React from 'react';
-import EmployeeDirectory from '../employee-directory/employee-directory.component';
+import EmployeeDirectory from '../directory/directory.component';
 import Header from '../header/header.component';
 import Search from '../search/search.component';
 import { HomeContainer } from './home.styles';

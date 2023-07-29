@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import ListItem from '../list-item/list-item.component';
 
-export const EmployeeDirectoryContainer = styled.div`
+export const DirectoryContainer = styled.div`
 	/* display: flex;
 	flex-direction: column;
 	gap: 0.5em;
@@ -11,4 +11,4 @@ export const EmployeeDirectoryContainer = styled.div`
 	padding: 0.5em; */
 `;
 
-export const EmployeeDirectoryItem = styled(ListItem)``;
+export const DirectoryItem = styled(ListItem)``;
