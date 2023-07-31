@@ -28,7 +28,7 @@ export const ListItemContainer = styled.div`
 
 		#avatar-container {
 			transform: ${props =>
-			props.type === 'hero' ? 'none' : 'scale(1.10)'};
+			props.type === 'hero' ? 'none' : 'scale(1.05)'};
 		}
 	}
 
