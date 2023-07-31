@@ -25,6 +25,11 @@ export const ListItemContainer = styled.div`
 	props.type === 'hero' ? 'none' : '4px 4px 8px black'};
 				background-color: white;
 		}
+
+		#avatar-container {
+			transform: ${props =>
+			props.type === 'hero' ? 'none' : 'scale(1.10)'};
+		}
 	}
 
 	&:active {
